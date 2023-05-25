@@ -14,9 +14,6 @@
     background-color: black;
     z-index:-1;
 }
-section{
-    margin:40px 0 40px 0;
-}
 .img_linear_order{
     background-image:  linear-gradient(to left, rgba(0,0,0,0.6),rgba(0,0,0,0)), url('/images/order.jpg');
 }

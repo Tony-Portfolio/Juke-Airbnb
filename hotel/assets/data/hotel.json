@@ -1,0 +1,302 @@
+[
+    {
+        "id": 1,
+        "img": "url",
+        "hotel_name": "Grand Hotel",
+        "city": "Jakarta, Indonesia",
+        "night": "1 Jan - 1 Feb",
+        "price": 3000000,
+        "facility": [
+            "Free WiFi",
+            "Area for work",
+            "Check-in Mandiri",
+            "Free cancellation up to 2 days",
+            "Own a bedroom"
+        ],
+        "owner_name": "John Doe"
+    },
+    {
+        "id": 2,
+        "img": "url",
+        "hotel_name": "The Plaza",
+        "city": "New York City, United States",
+        "night": "10 Feb - 10 Mar",
+        "price": 2000000,
+        "facility": [
+            "Free WiFi",
+            "Check-in Mandiri",
+            "Own a bedroom"
+        ],
+        "owner_name": "Jane Smith"
+    },
+    {
+        "id": 3,
+        "img": "url",
+        "hotel_name": "Sunset View",
+        "city": "Los Angeles, United States",
+        "night": "15 Mar - 15 Apr",
+        "price": 4000000,
+        "facility": [
+            "Free WiFi",
+            "Area for work",
+            "Check-in Mandiri",
+            "Free cancellation up to 2 days",
+            "Own a bedroom"
+        ],
+        "owner_name": "David Johnson"
+    },
+    {
+        "id": 4,
+        "img": "url",
+        "hotel_name": "Royal Palace",
+        "city": "Rome, Italy",
+        "night": "5 Apr - 5 May",
+        "price": 3500000,
+        "facility": [
+            "Free WiFi",
+            "Area for work",
+            "Check-in Mandiri",
+            "Own a bedroom"
+        ],
+        "owner_name": "Maria Rossi"
+    },
+    {
+        "id": 5,
+        "img": "url",
+        "hotel_name": "Eiffel Tower View",
+        "city": "Paris, France",
+        "night": "10 May - 10 Jun",
+        "price": 4500000,
+        "facility": [
+            "Free WiFi",
+            "Area for work",
+            "Check-in Mandiri",
+            "Free cancellation up to 3 days",
+            "Own a bedroom"
+        ],
+        "owner_name": "Thomas Dupont"
+    },
+    {
+        "id": 6,
+        "img": "url",
+        "hotel_name": "Canal House",
+        "city": "Amsterdam, Netherlands",
+        "night": "15 Jun - 15 Jul",
+        "price": 5000000,
+        "facility": [
+            "Free WiFi",
+            "Area for work",
+            "Check-in Mandiri",
+            "Free cancellation up to 2 days",
+            "Own a bedroom"
+        ],
+        "owner_name": "Sophie van der Berg"
+    },
+    {
+        "id": 7,
+        "img": "url",
+        "hotel_name": "Nordic Retreat",
+        "city": "Copenhagen, Denmark",
+        "night": "20 Jul - 20 Aug",
+        "price": 4000000,
+        "facility": [
+            "Free WiFi",
+            "Check-in Mandiri",
+            "Own a bedroom"
+        ],
+        "owner_name": "Erik Nielsen"
+    },
+    {
+        "id": 8,
+        "img": "url",
+        "hotel_name": "Sakura Inn",
+        "city": "Tokyo, Japan",
+        "night": "25 Aug - 25 Sep",
+        "price": 4200000,
+        "facility": [
+            "Free WiFi",
+            "Check-in Mandiri",
+            "Own a bedroom"
+        ],
+        "owner_name": "Yuki Tanaka"
+    },
+    {
+        "id": 9,
+        "img": "url",
+        "hotel_name": "Great Wall View",
+        "city": "Beijing, China",
+        "night": "1 Oct - 1 Nov",
+        "price": 3800000,
+        "facility": [
+            "Free WiFi",
+            "Area for work",
+            "Check-in Mandiri",
+            "Own a bedroom"
+        ],
+        "owner_name": "Li Chen"
+    },
+    {
+        "id": 10,
+        "img": "url",
+        "hotel_name": "Thai Oasis",
+        "city": "Bangkok, Thailand",
+        "night": "5 Nov - 5 Dec",
+        "price": 3000000,
+        "facility": [
+            "Free WiFi",
+            "Check-in Mandiri",
+            "Own a bedroom"
+        ],
+        "owner_name": "Sakda Wongchai"
+    },
+    {
+        "id": 11,
+        "img": "url",
+        "hotel_name": "Harbor View",
+        "city": "Sydney, Australia",
+        "night": "10 Dec - 10 Jan",
+        "price": 5000000,
+        "facility": [
+            "Free WiFi",
+            "Area for work",
+            "Check-in Mandiri",
+            "Free cancellation up to 3 days",
+            "Own a bedroom"
+        ],
+        "owner_name": "Olivia Anderson"
+    },
+    {
+        "id": 12,
+        "img": "url",
+        "hotel_name": "Seoul Retreat",
+        "city": "Seoul, South Korea",
+        "night": "15 Jan - 15 Feb",
+        "price": 3800000,
+        "facility": [
+            "Free WiFi",
+            "Area for work",
+            "Check-in Mandiri",
+            "Own a bedroom"
+        ],
+        "owner_name": "Kim Min-ji"
+    },
+    {
+        "id": 13,
+        "img": "url",
+        "hotel_name": "Marina Bay View",
+        "city": "Singapore",
+        "night": "20 Feb - 20 Mar",
+        "price": 4500000,
+        "facility": [
+            "Free WiFi",
+            "Check-in Mandiri",
+            "Own a bedroom"
+        ],
+        "owner_name": "Benjamin Tan"
+    },
+    {
+        "id": 14,
+        "img": "url",
+        "hotel_name": "Imperial Palace",
+        "city": "Tokyo, Japan",
+        "night": "25 Mar - 25 Apr",
+        "price": 4800000,
+        "facility": [
+            "Free WiFi",
+            "Area for work",
+            "Check-in Mandiri",
+            "Own a bedroom"
+        ],
+        "owner_name": "Akihiro Yamamoto"
+    },
+    {
+        "id": 15,
+        "img": "url",
+        "hotel_name": "Forbidden City",
+        "city": "Beijing, China",
+        "night": "1 May - 1 Jun",
+        "price": 4200000,
+        "facility": [
+            "Free WiFi",
+            "Area for work",
+            "Check-in Mandiri",
+            "Free cancellation up to 2 days",
+            "Own a bedroom"
+        ],
+        "owner_name": "Li Mei"
+    },
+    {
+        "id": 16,
+        "img": "url",
+        "hotel_name": "Paradise Resort",
+        "city": "Phuket, Thailand",
+        "night": "5 Jun - 5 Jul",
+        "price": 3500000,
+        "facility": [
+            "Free WiFi",
+            "Area for work",
+            "Check-in Mandiri",
+            "Own a bedroom"
+        ],
+        "owner_name": "Somsak Somchai"
+    },
+    {
+        "id": 17,
+        "img": "url",
+        "hotel_name": "Bondi Beach Retreat",
+        "city": "Sydney, Australia",
+        "night": "10 Jul - 10 Aug",
+        "price": 4000000,
+        "facility": [
+            "Free WiFi",
+            "Area for work",
+            "Check-in Mandiri",
+            "Free cancellation up to 3 days",
+            "Own a bedroom"
+        ],
+        "owner_name": "Emily Wilson"
+    },
+    {
+        "id": 18,
+        "img": "url",
+        "hotel_name": "Gyeongbokgung Palace",
+        "city": "Seoul, South Korea",
+        "night": "15 Aug - 15 Sep",
+        "price": 3600000,
+        "facility": [
+            "Free WiFi",
+            "Check-in Mandiri",
+            "Own a bedroom"
+        ],
+        "owner_name": "Lee Joon-ho"
+    },
+    {
+        "id": 19,
+        "img": "url",
+        "hotel_name": "Marina Bay Sands",
+        "city": "Singapore",
+        "night": "20 Sep - 20 Oct",
+        "price": 5000000,
+        "facility": [
+            "Free WiFi",
+            "Area for work",
+            "Check-in Mandiri",
+            "Own a bedroom"
+        ],
+        "owner_name": "Chen Wei"
+    },
+    {
+        "id": 20,
+        "img": "url",
+        "hotel_name": "Hakone Retreat",
+        "city": "Tokyo, Japan",
+        "night": "25 Oct - 25 Nov",
+        "price": 3800000,
+        "facility": [
+            "Free WiFi",
+            "Check-in Mandiri",
+            "Own a bedroom"
+        ],
+        "owner_name": "Haruka Nakamura"
+    }
+]
