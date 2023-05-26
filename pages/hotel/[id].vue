@@ -23,7 +23,9 @@
     <div class="w-full max-w-[1100px] mx-auto flex flex-col gap-4 md:block hidden">
       <div class="flex items-center justify-between py-4">
         <div class="">
+        <NuxtLink to = "/">
           <img src="/images/airbnb-logo.png" alt="" class="w-[100px]">
+          </NuxtLink>
         </div>
         <div class="">
           <div class="mx-2">
@@ -257,6 +259,7 @@ export default {
         footer: "footer"
       },
       hotel: json,
+      dropdownmenu: false,
     }
   },
   computed: {
