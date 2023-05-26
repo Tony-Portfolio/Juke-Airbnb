@@ -47,7 +47,7 @@
                     <img src="/images/airbnb-logo.png" alt="" class="w-[100px]">
                 </div>
                 <div class="">
-                    <div class="">
+                    <div class="mx-2">
                         <ul
                             class="flex border-2 border-black/[0.1] shadow-lg gap-4 py-2 px-3 rounded-full text-[14px] font-[500] items-center">
                             <li class="pl-4">Ke mana saja</li>
@@ -67,13 +67,21 @@
                         </ul>
                     </div>
                 </div>
-                <div class="">
+                <div class="flex items-center gap-4">
                     <p>Jadikan rumah anda airbnb</p>
+                    <div class="flex items-center p-1 border-[1px] border-black/[0.1] rounded-full gap-1">
+                        <div class="mx-2">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                        <div class="bg-black/[0.6] w-[15px] h-[15px] rounded-full flex items-center justify-center p-4 text-white">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <hr class="md:block hidden">
-        <div class="py-4">
+        <div class="py-2">
             <div class="w-11/12 mx-auto flex gap-4 items-center">
                 <div class="max-w-full overflow-hidden relative">
                     <div
@@ -210,7 +218,7 @@
                 </div>
                 <div class="">
                     <div
-                        class="border-[1px] border-black/[0.1] px-4 py-4 text-sm rounded-lg flex items-center justify-center gap-2">
+                        class="border-[1px] border-black/[0.1] px-3 py-3 text-sm rounded-lg flex items-center justify-center gap-2">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
                             <path
                                 d="M18.75 12.75h1.5a.75.75 0 000-1.5h-1.5a.75.75 0 000 1.5zM12 6a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5A.75.75 0 0112 6zM12 18a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5A.75.75 0 0112 18zM3.75 6.75h1.5a.75.75 0 100-1.5h-1.5a.75.75 0 000 1.5zM5.25 18.75h-1.5a.75.75 0 010-1.5h1.5a.75.75 0 010 1.5zM3 12a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5A.75.75 0 013 12zM9 3.75a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5zM12.75 12a2.25 2.25 0 114.5 0 2.25 2.25 0 01-4.5 0zM9 15.75a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z" />

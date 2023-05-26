@@ -21,6 +21,12 @@ export default defineNuxtConfig({
                     rel: "stylesheet",
                 },
             ],
+            script: [
+                {
+                    src: 'https://kit.fontawesome.com/5e4963521e.js',
+                    crossorigin: 'anonymous',
+                },
+            ],
         },
     }
 })

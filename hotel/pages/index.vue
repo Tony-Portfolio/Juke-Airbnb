@@ -1,7 +1,7 @@
 <template>
     <div class="mt-0">
         <NuxtLayout :name="layouts.header">
-            
+
         </NuxtLayout>
         <div class="w-11/12 mx-auto">
             <section>
@@ -43,23 +43,11 @@
                 </p>
                 <div
                     class="grid grid-cols-[repeat(auto-fit,minmax(280px,1fr))] grid-rows-[repeat(auto,550px)] gap-y-8 gap-6 my-4">
-                    <Card image="room-1.jpg" title="Torino, Italia" rating="4.7" price="1.200.000" date="31 Jan - 31 Feb"
-                        owner="Lorenzo"></Card>
-                    <Card image="room-2.jpg" title="Lyon, Prancis" rating="4.5" price="2.100.000" date="28 Apr - 29 Mei"
-                        owner="Emma"></Card>
-                    <Card image="room-3.jpg" title="Surry Hills, Australia" rating="4.8" price="1.500.000"
-                        date="20 Mar - 28 Apr" owner="Aria"></Card>
-                    <Card image="room-4.jpg" title="Lyon, Prancis" rating="4.6" price="1.900.000" date="18 Jun - 18 Jul"
-                        owner="Jade"></Card>
-                    <Card image="room-5.jpg" title="Malakoff, Prancis" rating="4.8" price="2.400.000"
-                        date="10 Agus - 12 Sep" owner="Theo"></Card>
-                    <Card image="room-6.jpg" title="Wirobrajan, Indonesia" rating="5" price="320.000" date="15 Sep - 20 Okt"
-                        owner="Sri"></Card>
-                    <Card image="room-7.jpg" title="Paris, Prancis" rating="4.9" price="800.000" date="25 Okt - 24 Nov"
-                        owner="Remy"></Card>
-                    <Card image="room-8.jpg" title="Copenhagen, Denmark" rating="4.9" price="1.000.000"
-                        date="18 Nov - 20 Des" owner="Anne"></Card>
+                    <div v-for="item in hotelData" :key="item.id">
+                        <Card :data="item"></Card>
+                    </div>
                 </div>
+
             </section>
             <section>
                 <h3 class="text-4xl font-bold">Apa yang anda cari ?</h3>
@@ -138,16 +126,21 @@
                 </div>
             </section>
         </div>
+        <NuxtLayout :name="layouts.footer">
+
+        </NuxtLayout>
     </div>
 </template>
 <script>
+import json from '@/assets/data/hotel.json';
 export default {
     data() {
         return {
             layouts: {
                 header: "header",
                 footer: "footer"
-            }
+            },
+            hotelData: json,
         }
     }
 }
