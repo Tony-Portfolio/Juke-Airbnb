@@ -140,7 +140,7 @@
                             </div>
                         </li>
                         <li class="py-1 relative group">
-                            <img src="/icon/rumah bumi.jpg" alt="" class="w-[20px] mx-auto grayscale-[100%]">
+                            <img src="/icon/rumah-bumi.jpg" alt="" class="w-[20px] mx-auto grayscale-[100%]">
                             <p class="py-2">Rumah bumi</p>
                             <div
                                 class="absolute bottom-0 left-0 w-full border-[1px] border-black/[0.1] opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
@@ -168,7 +168,7 @@
                             </div>
                         </li>
                         <li class="py-1 relative group">
-                            <img src="/icon/kolam renang.jpg" alt="" class="w-[20px] mx-auto grayscale-[100%]">
+                            <img src="/icon/kolam-renang.jpg" alt="" class="w-[20px] mx-auto grayscale-[100%]">
                             <p class="py-2">Kolam renang</p>
                             <div
                                 class="absolute bottom-0 left-0 w-full border-[1px] border-black/[0.1] opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
@@ -182,14 +182,14 @@
                             </div>
                         </li>
                         <li class="py-1 relative group">
-                            <img src="/icon/rumah kecil.jpg" alt="" class="w-[20px] mx-auto grayscale-[100%]">
+                            <img src="/icon/rumah-kecil.jpg" alt="" class="w-[20px] mx-auto grayscale-[100%]">
                             <p class="py-2">Rumah kecil</p>
                             <div
                                 class="absolute bottom-0 left-0 w-full border-[1px] border-black/[0.1] opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
                             </div>
                         </li>
                         <li class="py-1 relative group">
-                            <img src="/icon/taman nasional.jpg" alt="" class="w-[20px] mx-auto grayscale-[100%]">
+                            <img src="/icon/taman-nasional.jpg" alt="" class="w-[20px] mx-auto grayscale-[100%]">
                             <p class="py-2">Taman nasional</p>
                             <div
                                 class="absolute bottom-0 left-0 w-full border-[1px] border-black/[0.1] opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
@@ -217,7 +217,7 @@
                             </div>
                         </li>
                         <li class="py-1 relative group">
-                            <img src="/icon/hadap pantai.jpg" alt="" class="w-[20px] mx-auto grayscale-[100%]">
+                            <img src="/icon/hadap-pantai.jpg" alt="" class="w-[20px] mx-auto grayscale-[100%]">
                             <p class="py-2">Hadap pantai</p>
                             <div
                                 class="absolute bottom-0 left-0 w-full border-[1px] border-black/[0.1] opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
