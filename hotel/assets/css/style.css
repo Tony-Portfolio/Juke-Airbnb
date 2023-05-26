@@ -1,19 +1,44 @@
-*{
+* {
     font-family: 'Roboto', sans-serif;
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.btn::after{
-    content:"";
-    position:absolute;
-    width:100%;
-    height:100%;
-    top:3px;
-    left:3px;
+
+.btn::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 5px;
+    left: 5px;
     background-color: black;
-    z-index:-1;
+    z-index: -1;
 }
-.img_linear_order{
-    background-image:  linear-gradient(to left, rgba(0,0,0,0.6),rgba(0,0,0,0)), url('/images/order.jpg');
+
+.img_linear_order {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url('/images/order.jpg');
+}
+
+.navigation::-webkit-scrollbar {
+    width: 4px;
+    height:6px;
+    /* Set the width of the scrollbar */
+}
+
+.navigation::-webkit-scrollbar-track {
+    background: white;
+    /* Set the background color of the scrollbar track */
+}
+
+.navigation::-webkit-scrollbar-thumb {
+    background: rgb(255,90,95);
+    /* Set the color of the scrollbar thumb */
+    border-radius: 4px;
+    /* Round the corners of the scrollbar thumb */
+}
+
+.navigation::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 75, 81);
+    /* Set the color of the scrollbar thumb on hover */
 }

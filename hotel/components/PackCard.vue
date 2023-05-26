@@ -2,7 +2,7 @@
     <div>
         <div class="flex flex-col gap-2">
             <div class="">
-                <img :src="/images/ + image" alt="" class="w-[full] rounded-lg h-[full]">
+                <img :src="/images/ + image" alt="" class="w-full rounded-lg h-[full]">
             </div>
             <div class="flex flex-col">
                 <div class="flex items-center justify-between font-[500]">

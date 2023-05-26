@@ -69,12 +69,28 @@
                 </div>
                 <div class="flex items-center gap-4">
                     <p>Jadikan rumah anda airbnb</p>
-                    <div class="flex items-center p-1 border-[1px] border-black/[0.1] rounded-full gap-1">
-                        <div class="mx-2">
-                            <i class="fa-solid fa-bars"></i>
+                    <div class="flex items-center p-1 border-[1px] border-black/[0.1] rounded-full gap-1 relative">
+                        <div class="flex items-center gap-1" @click="dropdownmenu = !dropdownmenu">
+                            <div class="mx-2">
+                                <i class="fa-solid fa-bars"></i>
+                            </div>
+                            <div
+                                class="bg-black/[0.6] w-[15px] h-[15px] rounded-full flex items-center justify-center p-4 text-white">
+                                <i class="fa-solid fa-user"></i>
+                            </div>
                         </div>
-                        <div class="bg-black/[0.6] w-[15px] h-[15px] rounded-full flex items-center justify-center p-4 text-white">
-                            <i class="fa-solid fa-user"></i>
+                        <div class="absolute bg-white top-[100%] left-[-215%] py-2 w-[240px] z-[200] shadow-lg rounded-lg flex flex-col gap-3"
+                            v-show="dropdownmenu" @click="dropdownmenu = !dropdownmenu">
+                            <div class="">
+                                <p class="hover:bg-black/[0.03] py-3 text-[15px] px-4 cursor-pointer">Daftar</p>
+                                <p class="hover:bg-black/[0.03] py-3 text-[15px] px-4 cursor-pointer">Masuk</p>
+                            </div>
+                            <hr>
+                            <div class="">
+                                <p class="hover:bg-black/[0.03] py-3 text-[15px] px-4 cursor-pointer">Jadikan rumah Anda
+                                    Airbnb</p>
+                                <p class="hover:bg-black/[0.03] py-3 text-[15px] px-4 cursor-pointer">Bantuan</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -84,7 +100,7 @@
         <div class="py-2">
             <div class="w-11/12 mx-auto flex gap-4 items-center">
                 <div class="max-w-full overflow-hidden relative">
-                    <div
+                    <!-- <div
                         class="p-2 bg-white border-[1px] border-black/[0.1] rounded-full text-sm absolute top-[50%] left-[2%] translate-x-[-50%] translate-y-[-50%]">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4">
                             <path fill-rule="evenodd"
@@ -99,9 +115,9 @@
                                 d="M16.28 11.47a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z"
                                 clip-rule="evenodd" />
                         </svg>
-                    </div>
+                    </div> -->
                     <ul
-                        class="flex gap-2 gap-x-8 flex-nowrap font-[500] text-black/[0.6] text-[13px] overflow-x-auto text-center whitespace-nowrap">
+                        class="navigation flex gap-2 gap-x-8 flex-nowrap font-[500] text-black/[0.6] text-[13px] overflow-x-auto text-center whitespace-nowrap">
                         <li class="py-1 relative group">
                             <img src="/icon/bed.jpg" alt="" class="w-[20px] mx-auto grayscale-[100%]">
                             <p class="py-2">Kamar</p>
@@ -230,3 +246,13 @@
         </div>
     </section>
 </template>
+<script>
+import json from '@/assets/data/hotel.json';
+export default {
+    data() {
+        return {
+            dropdownmenu: false
+        }
+    }
+}
+</script>
