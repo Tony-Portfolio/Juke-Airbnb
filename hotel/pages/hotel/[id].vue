@@ -233,7 +233,7 @@
         </div>
       </div>
       <div
-        class="w-full sticky bottom-0 left-0 bg-white border-t-[1px] border-black/[0.1] flex items-center justify-between p-4">
+        class="w-full sticky bottom-0 left-0 bg-white border-t-[1px] border-black/[0.1] items-center justify-between p-4 md:hidden flex">
         <div class="">
           <h4 class="text-[16px] font-[500]">Rp. {{ hotelData.price.toLocaleString() }} <span
               class="font-[14px] font-[400]">malam</span></h4>
