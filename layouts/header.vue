@@ -70,7 +70,7 @@
                 <div class="flex items-center gap-4">
                     <p>Jadikan rumah anda airbnb</p>
                     <div class="flex items-center p-1 border-[1px] border-black/[0.1] rounded-full gap-1 relative">
-                        <div class="flex items-center gap-1" @click="dropdownmenu = !dropdownmenu">
+                        <div class="flex items-center gap-1 cursor-pointer" @click="dropdownmenu = !dropdownmenu">
                             <div class="mx-2">
                                 <i class="fa-solid fa-bars"></i>
                             </div>

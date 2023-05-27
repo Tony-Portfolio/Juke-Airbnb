@@ -1,7 +1,7 @@
 <template>
     <div>
-        <div class="flex flex-col gap-2">
-            <NuxtLink :to="/hotel/ + data.id">
+        <div class="flex flex-col gap-4">
+            <NuxtLink :to="/hotel/ + data.id" class = "flex flex-col gap-2">
                 <div class="relative">
                     <img :src="data.img" alt="" class="w-[full] rounded-lg h-[full]">
                     <div class="absolute bottom-[10px] left-[10px] bg-white w-[60px] h-[70px] rounded-se-lg rounded-ee-lg">
