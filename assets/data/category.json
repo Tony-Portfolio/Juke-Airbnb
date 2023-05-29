@@ -1,0 +1,258 @@
+[
+    {
+        "id": 1,
+        "name": "kamar",
+        "images": {
+            "kamar-1": "images/room/room-1.jpg",
+            "kamar-2": "images/room/room-2.jpg",
+            "kamar-3": "images/room/room-3.jpg",
+            "kamar-4": "images/room/room-4.jpg",
+            "kamar-5": "images/room/room-5.jpg",
+            "kamar-6": "images/room/room-6.jpg",
+            "kamar-7": "images/room/room-7.jpg",
+            "kamar-8": "images/room/room-8.jpg",
+            "kamar-9": "images/room/room-9.jpg",
+            "kamar-10": "images/room/room-10.jpg"
+        }
+    },
+    {
+        "id": 2,
+        "name": "tropis",
+        "images": {
+            "tropis-1": "images/tropis/tropis-1.jpg",
+            "tropis-2": "images/tropis/tropis-2.jpg",
+            "tropis-3": "images/tropis/tropis-3.jpg",
+            "tropis-4": "images/tropis/tropis-4.jpg",
+            "tropis-5": "images/tropis/tropis-5.jpg",
+            "tropis-6": "images/tropis/tropis-6.jpg",
+            "tropis-7": "images/tropis/tropis-7.jpg",
+            "tropis-8": "images/tropis/tropis-8.jpg",
+            "tropis-9": "images/tropis/tropis-9.jpg",
+            "tropis-10": "images/tropis/tropis-10.jpg"
+        }
+    },
+    {
+        "id": 3,
+        "name": "dekat-pantai",
+        "images": {
+            "dekat-pantai-1": "images/dekat-pantai/dekat-pantai-1.jpg",
+            "dekat-pantai-2": "images/dekat-pantai/dekat-pantai-2.jpg",
+            "dekat-pantai-3": "images/dekat-pantai/dekat-pantai-3.jpg",
+            "dekat-pantai-4": "images/dekat-pantai/dekat-pantai-4.jpg",
+            "dekat-pantai-5": "images/dekat-pantai/dekat-pantai-5.jpg",
+            "dekat-pantai-6": "images/dekat-pantai/dekat-pantai-6.jpg",
+            "dekat-pantai-7": "images/dekat-pantai/dekat-pantai-7.jpg",
+            "dekat-pantai-8": "images/dekat-pantai/dekat-pantai-8.jpg",
+            "dekat-pantai-9": "images/dekat-pantai/dekat-pantai-9.jpg",
+            "dekat-pantai-10": "images/dekat-pantai/dekat-pantai-10.jpg"
+        }
+    },
+    {
+        "id": 4,
+        "name": "rumah-bumi",
+        "images": {
+            "rumah-bumi-1": "images/rumah-bumi/rumah-bumi-1.jpg",
+            "rumah-bumi-2": "images/rumah-bumi/rumah-bumi-2.jpg",
+            "rumah-bumi-3": "images/rumah-bumi/rumah-bumi-3.jpg",
+            "rumah-bumi-4": "images/rumah-bumi/rumah-bumi-4.jpg",
+            "rumah-bumi-5": "images/rumah-bumi/rumah-bumi-5.jpg",
+            "rumah-bumi-6": "images/rumah-bumi/rumah-bumi-6.jpg",
+            "rumah-bumi-7": "images/rumah-bumi/rumah-bumi-7.jpg",
+            "rumah-bumi-8": "images/rumah-bumi/rumah-bumi-8.jpg",
+            "rumah-bumi-9": "images/rumah-bumi/rumah-bumi-9.jpg",
+            "rumah-bumi-10": "images/rumah-bumi/rumah-bumi-10.jpg"
+        }
+    },
+    {
+        "id": 5,
+        "name": "golf",
+        "images": {
+            "golf-1": "images/golf/golf-1.jpg",
+            "golf-2": "images/golf/golf-2.jpg",
+            "golf-3": "images/golf/golf-3.jpg",
+            "golf-4": "images/golf/golf-4.jpg",
+            "golf-5": "images/golf/golf-5.jpg",
+            "golf-6": "images/golf/golf-6.jpg",
+            "golf-7": "images/golf/golf-7.jpg",
+            "golf-8": "images/golf/golf-8.jpg",
+            "golf-9": "images/golf/golf-9.jpg",
+            "golf-10": "images/golf/golf-10.jpg"
+        }
+    },
+    {
+        "id": 6,
+        "name": "pemandangan-indah",
+        "images": {
+            "pemandangan-indah-1": "images/pemandangan-indah/pemandangan-indah-1.jpg",
+            "pemandangan-indah-2": "images/pemandangan-indah/pemandangan-indah-2.jpg",
+            "pemandangan-indah-3": "images/pemandangan-indah/pemandangan-indah-3.jpg",
+            "pemandangan-indah-4": "images/pemandangan-indah/pemandangan-indah-4.jpg",
+            "pemandangan-indah-5": "images/pemandangan-indah/pemandangan-indah-5.jpg",
+            "pemandangan-indah-6": "images/pemandangan-indah/pemandangan-indah-6.jpg",
+            "pemandangan-indah-7": "images/pemandangan-indah/pemandangan-indah-7.jpg",
+            "pemandangan-indah-8": "images/pemandangan-indah/pemandangan-indah-8.jpg",
+            "pemandangan-indah-9": "images/pemandangan-indah/pemandangan-indah-9.jpg",
+            "pemandangan-indah-10": "images/pemandangan-indah/pemandangan-indah-10.jpg"
+        }
+    },
+    {
+        "id": 7,
+        "name": "kemah",
+        "images": {
+            "kemah-1": "images/kemah/kemah-1.jpg",
+            "kemah-2": "images/kemah/kemah-2.jpg",
+            "kemah-3": "images/kemah/kemah-3.jpg",
+            "kemah-4": "images/kemah/kemah-4.jpg",
+            "kemah-5": "images/kemah/kemah-5.jpg",
+            "kemah-6": "images/kemah/kemah-6.jpg",
+            "kemah-7": "images/kemah/kemah-7.jpg",
+            "kemah-8": "images/kemah/kemah-8.jpg",
+            "kemah-9": "images/kemah/kemah-9.jpg",
+            "kemah-10": "images/kemah/kemah-10.jpg"
+        }
+    },
+    {
+        "id": 8,
+        "name": "kolam-renang",
+        "images": {
+            "kolam-renang-1": "images/kolam-renang/kolam-renang-1.jpg",
+            "kolam-renang-2": "images/kolam-renang/kolam-renang-2.jpg",
+            "kolam-renang-3": "images/kolam-renang/kolam-renang-3.jpg",
+            "kolam-renang-4": "images/kolam-renang/kolam-renang-4.jpg",
+            "kolam-renang-5": "images/kolam-renang/kolam-renang-5.jpg",
+            "kolam-renang-6": "images/kolam-renang/kolam-renang-6.jpg",
+            "kolam-renang-7": "images/kolam-renang/kolam-renang-7.jpg",
+            "kolam-renang-8": "images/kolam-renang/kolam-renang-8.jpg",
+            "kolam-renang-9": "images/kolam-renang/kolam-renang-9.jpg",
+            "kolam-renang-10": "images/kolam-renang/kolam-renang-10.jpg"
+        }
+    },
+    {
+        "id": 9,
+        "name": "desain-keren",
+        "images": {
+            "desain-keren-1": "images/desain-keren/desain-keren-1.jpg",
+            "desain-keren-2": "images/desain-keren/desain-keren-2.jpg",
+            "desain-keren-3": "images/desain-keren/desain-keren-3.jpg",
+            "desain-keren-4": "images/desain-keren/desain-keren-4.jpg",
+            "desain-keren-5": "images/desain-keren/desain-keren-5.jpg",
+            "desain-keren-6": "images/desain-keren/desain-keren-6.jpg",
+            "desain-keren-7": "images/desain-keren/desain-keren-7.jpg",
+            "desain-keren-8": "images/desain-keren/desain-keren-8.jpg",
+            "desain-keren-9": "images/desain-keren/desain-keren-9.jpg",
+            "desain-keren-10": "images/desain-keren/desain-keren-10.jpg"
+        }
+    },
+    {
+        "id": 10,
+        "name": "rumah-kecil",
+        "images": {
+            "rumah-kecil-1": "images/rumah-kecil/rumah-kecil-1.jpg",
+            "rumah-kecil-2": "images/rumah-kecil/rumah-kecil-2.jpg",
+            "rumah-kecil-3": "images/rumah-kecil/rumah-kecil-3.jpg",
+            "rumah-kecil-4": "images/rumah-kecil/rumah-kecil-4.jpg",
+            "rumah-kecil-5": "images/rumah-kecil/rumah-kecil-5.jpg",
+            "rumah-kecil-6": "images/rumah-kecil/rumah-kecil-6.jpg",
+            "rumah-kecil-7": "images/rumah-kecil/rumah-kecil-7.jpg",
+            "rumah-kecil-8": "images/rumah-kecil/rumah-kecil-8.jpg",
+            "rumah-kecil-9": "images/rumah-kecil/rumah-kecil-9.jpg",
+            "rumah-kecil-10": "images/rumah-kecil/rumah-kecil-10.jpg"
+        }
+    },
+    {
+        "id": 11,
+        "name": "taman-nasional",
+        "images": {
+            "taman-nasional-1": "images/taman-nasional/taman-nasional-1.jpg",
+            "taman-nasional-2": "images/taman-nasional/taman-nasional-2.jpg",
+            "taman-nasional-3": "images/taman-nasional/taman-nasional-3.jpg",
+            "taman-nasional-4": "images/taman-nasional/taman-nasional-4.jpg",
+            "taman-nasional-5": "images/taman-nasional/taman-nasional-5.jpg",
+            "taman-nasional-6": "images/taman-nasional/taman-nasional-6.jpg",
+            "taman-nasional-7": "images/taman-nasional/taman-nasional-7.jpg",
+            "taman-nasional-8": "images/taman-nasional/taman-nasional-8.jpg",
+            "taman-nasional-9": "images/taman-nasional/taman-nasional-9.jpg",
+            "taman-nasional-10": "images/taman-nasional/taman-nasional-10.jpg"
+        }
+    },
+    {
+        "id": 12,
+        "name": "mansion",
+        "images": {
+            "mansion-1": "images/mansion/mansion-1.jpg",
+            "mansion-2": "images/mansion/mansion-2.jpg",
+            "mansion-3": "images/mansion/mansion-3.jpg",
+            "mansion-4": "images/mansion/mansion-4.jpg",
+            "mansion-5": "images/mansion/mansion-5.jpg",
+            "mansion-6": "images/mansion/mansion-6.jpg",
+            "mansion-7": "images/mansion/mansion-7.jpg",
+            "mansion-8": "images/mansion/mansion-8.jpg",
+            "mansion-9": "images/mansion/mansion-9.jpg",
+            "mansion-10": "images/mansion/mansion-10.jpg"
+        }
+    },
+    {
+        "id": 13,
+        "name": "wow",
+        "images": {
+            "wow-1": "images/wow/wow-1.jpg",
+            "wow-2": "images/wow/wow-2.jpg",
+            "wow-3": "images/wow/wow-3.jpg",
+            "wow-4": "images/wow/wow-4.jpg",
+            "wow-5": "images/wow/wow-5.jpg",
+            "wow-6": "images/wow/wow-6.jpg",
+            "wow-7": "images/wow/wow-7.jpg",
+            "wow-8": "images/wow/wow-8.jpg",
+            "wow-9": "images/wow/wow-9.jpg",
+            "wow-10": "images/wow/wow-10.jpg"
+        }
+    },
+    {
+        "id": 14,
+        "name": "luxe",
+        "images": {
+            "luxe-1": "images/luxe/luxe-1.jpg",
+            "luxe-2": "images/luxe/luxe-2.jpg",
+            "luxe-3": "images/luxe/luxe-3.jpg",
+            "luxe-4": "images/luxe/luxe-4.jpg",
+            "luxe-5": "images/luxe/luxe-5.jpg",
+            "luxe-6": "images/luxe/luxe-6.jpg",
+            "luxe-7": "images/luxe/luxe-7.jpg",
+            "luxe-8": "images/luxe/luxe-8.jpg",
+            "luxe-9": "images/luxe/luxe-9.jpg",
+            "luxe-10": "images/luxe/luxe-10.jpg"
+        }
+    },
+    {
+        "id": 15,
+        "name": "hadap-pantai",
+        "images": {
+            "hadap-pantai-1": "images/hadap-pantai/hadap-pantai-1.jpg",
+            "hadap-pantai-2": "images/hadap-pantai/hadap-pantai-2.jpg",
+            "hadap-pantai-3": "images/hadap-pantai/hadap-pantai-3.jpg",
+            "hadap-pantai-4": "images/hadap-pantai/hadap-pantai-4.jpg",
+            "hadap-pantai-5": "images/hadap-pantai/hadap-pantai-5.jpg",
+            "hadap-pantai-6": "images/hadap-pantai/hadap-pantai-6.jpg",
+            "hadap-pantai-7": "images/hadap-pantai/hadap-pantai-7.jpg",
+            "hadap-pantai-8": "images/hadap-pantai/hadap-pantai-8.jpg",
+            "hadap-pantai-9": "images/hadap-pantai/hadap-pantai-9.jpg",
+            "hadap-pantai-10": "images/hadap-pantai/hadap-pantai-10.jpg"
+        }
+    },
+    {
+        "id": 16,
+        "name": "populer",
+        "images": {
+            "populer-1": "images/populer/populer-1.jpg",
+            "populer-2": "images/populer/populer-2.jpg",
+            "populer-3": "images/populer/populer-3.jpg",
+            "populer-4": "images/populer/populer-4.jpg",
+            "populer-5": "images/populer/populer-5.jpg",
+            "populer-6": "images/populer/populer-6.jpg",
+            "populer-7": "images/populer/populer-7.jpg",
+            "populer-8": "images/populer/populer-8.jpg",
+            "populer-9": "images/populer/populer-9.jpg",
+            "populer-10": "images/populer/populer-10.jpg"
+        }
+    }
+]

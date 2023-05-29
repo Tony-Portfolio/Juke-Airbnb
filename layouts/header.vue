@@ -42,11 +42,13 @@
             </div>
         </div>
         <div class="w-11/12 mx-auto flex flex-col gap-4 md:block hidden">
-            <div class="flex items-center justify-between py-4">
-                <div class="">
-                    <img src="/images/airbnb-logo.png" alt="" class="w-[100px]">
+            <div class="flex items-center py-4">
+                <div class="flex-1 shrink">
+                    <NuxtLink to="/">
+                        <img src="/images/airbnb-logo.png" alt="" class="w-[100px] s">
+                    </NuxtLink>
                 </div>
-                <div class="">
+                <div class=" flex-1 shrink-0">
                     <div class="mx-2">
                         <ul
                             class="flex border-2 border-black/[0.1] shadow-lg gap-4 py-2 px-3 rounded-full text-[14px] font-[500] items-center">
@@ -67,7 +69,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="flex items-center gap-4">
+                <div class="flex items-center gap-4 justify-end flex-1 shrink-0">
                     <p>Jadikan rumah anda airbnb</p>
                     <div class="flex items-center p-1 border-[1px] border-black/[0.1] rounded-full gap-1 relative">
                         <div class="flex items-center gap-1 cursor-pointer" @click="dropdownmenu = !dropdownmenu">
@@ -118,118 +120,150 @@
                     </div> -->
                     <ul
                         class="navigation flex gap-2 gap-x-8 flex-nowrap font-[500] text-black/[0.6] text-[13px] overflow-x-auto text-center whitespace-nowrap">
-                        <li class="py-1 relative group">
-                            <img src="/icon/bed.jpg" alt="" class="w-[20px] mx-auto grayscale-[100%]">
-                            <p class="py-2">Kamar</p>
-                            <div
-                                class="absolute bottom-0 left-0 w-full border-[1px] border-black/[0.1] opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
-                            </div>
-                        </li>
-                        <li class="py-1 relative group">
-                            <img src="/icon/tropis.jpg" alt="" class="w-[20px] mx-auto grayscale-[100%]">
-                            <p class="py-2">Tropis</p>
-                            <div
-                                class="absolute bottom-0 left-0 w-full border-[1px] border-black/[0.1] opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
-                            </div>
-                        </li>
-                        <li class="py-1 relative group">
-                            <img src="/icon/beach.jpg" alt="" class="w-[20px] mx-auto grayscale-[100%]">
-                            <p class="py-2">Dekat pantai</p>
-                            <div
-                                class="absolute bottom-0 left-0 w-full border-[1px] border-black/[0.1] opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
-                            </div>
-                        </li>
-                        <li class="py-1 relative group">
-                            <img src="/icon/rumah-bumi.jpg" alt="" class="w-[20px] mx-auto grayscale-[100%]">
-                            <p class="py-2">Rumah bumi</p>
-                            <div
-                                class="absolute bottom-0 left-0 w-full border-[1px] border-black/[0.1] opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
-                            </div>
-                        </li>
-                        <li class="py-1 relative group">
-                            <img src="/icon/golf.jpg" alt="" class="w-[20px] mx-auto grayscale-[100%]">
-                            <p class="py-2">Golf</p>
-                            <div
-                                class="absolute bottom-0 left-0 w-full border-[1px] border-black/[0.1] opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
-                            </div>
-                        </li>
-                        <li class="py-1 relative group">
-                            <img src="/icon/view.jpg" alt="" class="w-[20px] mx-auto grayscale-[100%]">
-                            <p class="py-2">Pemandangan indah</p>
-                            <div
-                                class="absolute bottom-0 left-0 w-full border-[1px] border-black/[0.1] opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
-                            </div>
-                        </li>
-                        <li class="py-1 relative group">
-                            <img src="/icon/camp.jpg" alt="" class="w-[20px] mx-auto grayscale-[100%]">
-                            <p class="py-2">Berkemah</p>
-                            <div
-                                class="absolute bottom-0 left-0 w-full border-[1px] border-black/[0.1] opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
-                            </div>
-                        </li>
-                        <li class="py-1 relative group">
-                            <img src="/icon/kolam-renang.jpg" alt="" class="w-[20px] mx-auto grayscale-[100%]">
-                            <p class="py-2">Kolam renang</p>
-                            <div
-                                class="absolute bottom-0 left-0 w-full border-[1px] border-black/[0.1] opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
-                            </div>
-                        </li>
-                        <li class="py-1 relative group">
-                            <img src="/icon/modern.jpg" alt="" class="w-[20px] mx-auto grayscale-[100%]">
-                            <p class="py-2">Desain keren</p>
-                            <div
-                                class="absolute bottom-0 left-0 w-full border-[1px] border-black/[0.1] opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
-                            </div>
-                        </li>
-                        <li class="py-1 relative group">
-                            <img src="/icon/rumah-kecil.jpg" alt="" class="w-[20px] mx-auto grayscale-[100%]">
-                            <p class="py-2">Rumah kecil</p>
-                            <div
-                                class="absolute bottom-0 left-0 w-full border-[1px] border-black/[0.1] opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
-                            </div>
-                        </li>
-                        <li class="py-1 relative group">
-                            <img src="/icon/taman-nasional.jpg" alt="" class="w-[20px] mx-auto grayscale-[100%]">
-                            <p class="py-2">Taman nasional</p>
-                            <div
-                                class="absolute bottom-0 left-0 w-full border-[1px] border-black/[0.1] opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
-                            </div>
-                        </li>
-                        <li class="py-1 relative group">
-                            <img src="/icon/mansion.jpg" alt="" class="w-[20px] mx-auto grayscale-[100%]">
-                            <p class="py-2">Mansion</p>
-                            <div
-                                class="absolute bottom-0 left-0 w-full border-[1px] border-black/[0.1] opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
-                            </div>
-                        </li>
-                        <li class="py-1 relative group">
-                            <img src="/icon/wow.jpg" alt="" class="w-[20px] mx-auto grayscale-[100%]">
-                            <p class="py-2">Wow</p>
-                            <div
-                                class="absolute bottom-0 left-0 w-full border-[1px] border-black/[0.1] opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
-                            </div>
-                        </li>
-                        <li class="py-1 relative group">
-                            <img src="/icon/luxe.jpg" alt="" class="w-[20px] mx-auto grayscale-[100%]">
-                            <p class="py-2">Luxe</p>
-                            <div
-                                class="absolute bottom-0 left-0 w-full border-[1px] border-black/[0.1] opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
-                            </div>
-                        </li>
-                        <li class="py-1 relative group">
-                            <img src="/icon/hadap-pantai.jpg" alt="" class="w-[20px] mx-auto grayscale-[100%]">
-                            <p class="py-2">Hadap pantai</p>
-                            <div
-                                class="absolute bottom-0 left-0 w-full border-[1px] border-black/[0.1] opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
-                            </div>
-                        </li>
-                        <li class="py-1 relative group">
-                            <img src="/icon/populer.jpg" alt="" class="w-[20px] mx-auto grayscale-[100%]">
-                            <p class="py-2">Populer</p>
-                            <div
-                                class="absolute bottom-0 left-0 w-full border-[1px] border-black/[0.1] opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
-                            </div>
-                        </li>
+                        <NuxtLink to="/search/1">
+                            <li class="py-1 relative group" :class="{ active: isActive === 1 }">
+                                <img src="/icon/bed.jpg" alt="" class="w-[20px] mx-auto grayscale-[100%]">
+                                <p class="py-2">Kamar</p>
+                                <div
+                                    class="absolute bottom-0 left-0 w-full border-[1px] border-black/[0.1] opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
+                                </div>
+                            </li>
+                        </NuxtLink>
+                        <NuxtLink to="/search/2">
+                            <li class="py-1 relative group" :class="{ active: isActive === 2 }">
+                                <img src="/icon/tropis.jpg" alt="" class="w-[20px] mx-auto grayscale-[100%]">
+                                <p class="py-2">Tropis</p>
+                                <div
+                                    class="absolute bottom-0 left-0 w-full border-[1px] border-black/[0.1] opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
+                                </div>
+                            </li>
+                        </NuxtLink>
+                        <NuxtLink to="/search/3">
+                            <li class="py-1 relative group" :class="{ active: isActive === 3 }">
+                                <img src="/icon/beach.jpg" alt="" class="w-[20px] mx-auto grayscale-[100%]">
+                                <p class="py-2">Dekat pantai</p>
+                                <div
+                                    class="absolute bottom-0 left-0 w-full border-[1px] border-black/[0.1] opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
+                                </div>
+                            </li>
+                        </NuxtLink>
+                        <NuxtLink to="/search/4">
+                            <li class="py-1 relative group" :class="{ active: isActive === 4 }">
+                                <img src="/icon/rumah-bumi.jpg" alt="" class="w-[20px] mx-auto grayscale-[100%]">
+                                <p class="py-2">Rumah bumi</p>
+                                <div
+                                    class="absolute bottom-0 left-0 w-full border-[1px] border-black/[0.1] opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
+                                </div>
+                            </li>
+                        </NuxtLink>
+                        <NuxtLink to="/search/5">
+                            <li class="py-1 relative group" :class="{ active: isActive === 5 }">
+                                <img src="/icon/golf.jpg" alt="" class="w-[20px] mx-auto grayscale-[100%]">
+                                <p class="py-2">Golf</p>
+                                <div
+                                    class="absolute bottom-0 left-0 w-full border-[1px] border-black/[0.1] opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
+                                </div>
+                            </li>
+                        </NuxtLink>
+                        <NuxtLink to="/search/6">
+                            <li class="py-1 relative group" :class="{ active: isActive === 6 }">
+                                <img src="/icon/view.jpg" alt="" class="w-[20px] mx-auto grayscale-[100%]">
+                                <p class="py-2">Pemandangan indah</p>
+                                <div
+                                    class="absolute bottom-0 left-0 w-full border-[1px] border-black/[0.1] opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
+                                </div>
+                            </li>
+                        </NuxtLink>
+                        <NuxtLink to="/search/7">
+                            <li class="py-1 relative group" :class="{ active: isActive === 7 }">
+                                <img src="/icon/camp.jpg" alt="" class="w-[20px] mx-auto grayscale-[100%]">
+                                <p class="py-2">Berkemah</p>
+                                <div
+                                    class="absolute bottom-0 left-0 w-full border-[1px] border-black/[0.1] opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
+                                </div>
+                            </li>
+                        </NuxtLink>
+                        <NuxtLink to="/search/8">
+                            <li class="py-1 relative group" :class="{ active: isActive === 8 }">
+                                <img src="/icon/kolam-renang.jpg" alt="" class="w-[20px] mx-auto grayscale-[100%]">
+                                <p class="py-2">Kolam renang</p>
+                                <div
+                                    class="absolute bottom-0 left-0 w-full border-[1px] border-black/[0.1] opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
+                                </div>
+                            </li>
+                        </NuxtLink>
+                        <NuxtLink to="/search/9">
+                            <li class="py-1 relative group" :class="{ active: isActive === 9 }">
+                                <img src="/icon/modern.jpg" alt="" class="w-[20px] mx-auto grayscale-[100%]">
+                                <p class="py-2">Desain keren</p>
+                                <div
+                                    class="absolute bottom-0 left-0 w-full border-[1px] border-black/[0.1] opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
+                                </div>
+                            </li>
+                        </NuxtLink>
+                        <NuxtLink to="/search/10">
+                            <li class="py-1 relative group" :class="{ active: isActive === 10 }">
+                                <img src="/icon/rumah-kecil.jpg" alt="" class="w-[20px] mx-auto grayscale-[100%]">
+                                <p class="py-2">Rumah kecil</p>
+                                <div
+                                    class="absolute bottom-0 left-0 w-full border-[1px] border-black/[0.1] opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
+                                </div>
+                            </li>
+                        </NuxtLink>
+                        <NuxtLink to="/search/11">
+                            <li class="py-1 relative group" :class="{ active: isActive === 11 }">
+                                <img src="/icon/taman-nasional.jpg" alt="" class="w-[20px] mx-auto grayscale-[100%]">
+                                <p class="py-2">Taman nasional</p>
+                                <div
+                                    class="absolute bottom-0 left-0 w-full border-[1px] border-black/[0.1] opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
+                                </div>
+                            </li>
+                        </NuxtLink>
+                        <NuxtLink to="/search/12">
+                            <li class="py-1 relative group" :class="{ active: isActive === 12 }">
+                                <img src="/icon/mansion.jpg" alt="" class="w-[20px] mx-auto grayscale-[100%]">
+                                <p class="py-2">Mansion</p>
+                                <div
+                                    class="absolute bottom-0 left-0 w-full border-[1px] border-black/[0.1] opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
+                                </div>
+                            </li>
+                        </NuxtLink>
+                        <NuxtLink to="/search/13">
+                            <li class="py-1 relative group" :class="{ active: isActive === 13 }">
+                                <img src="/icon/wow.jpg" alt="" class="w-[20px] mx-auto grayscale-[100%]">
+                                <p class="py-2">Wow</p>
+                                <div
+                                    class="absolute bottom-0 left-0 w-full border-[1px] border-black/[0.1] opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
+                                </div>
+                            </li>
+                        </NuxtLink>
+                        <NuxtLink to="/search/14">
+                            <li class="py-1 relative group" :class="{ active: isActive === 14 }">
+                                <img src="/icon/luxe.jpg" alt="" class="w-[20px] mx-auto grayscale-[100%]">
+                                <p class="py-2">Luxe</p>
+                                <div
+                                    class="absolute bottom-0 left-0 w-full border-[1px] border-black/[0.1] opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
+                                </div>
+                            </li>
+                        </NuxtLink>
+                        <NuxtLink to="/search/15">
+                            <li class="py-1 relative group" :class="{ active: isActive === 15 }">
+                                <img src="/icon/hadap-pantai.jpg" alt="" class="w-[20px] mx-auto grayscale-[100%]">
+                                <p class="py-2">Hadap pantai</p>
+                                <div
+                                    class="absolute bottom-0 left-0 w-full border-[1px] border-black/[0.1] opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
+                                </div>
+                            </li>
+                        </NuxtLink>
+                        <NuxtLink to="/search/16">
+                            <li class="py-1 relative group" :class="{ active: isActive === 16 }">
+                                <img src="/icon/populer.jpg" alt="" class="w-[20px] mx-auto grayscale-[100%]">
+                                <p class="py-2">Populer</p>
+                                <div
+                                    class="absolute bottom-0 left-0 w-full border-[1px] border-black/[0.1] opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
+                                </div>
+                            </li>
+                        </NuxtLink>
                     </ul>
                 </div>
                 <div class="">
@@ -252,6 +286,11 @@ export default {
     data() {
         return {
             dropdownmenu: false
+        }
+    },
+    computed: {
+        isActive() {
+            return parseInt(this.$route.params.id);
         }
     }
 }

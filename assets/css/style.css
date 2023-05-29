@@ -42,3 +42,6 @@
     background: rgb(255, 75, 81);
     /* Set the color of the scrollbar thumb on hover */
 }
+.active{
+    color:rgb(255,90,95);
+}

@@ -1,8 +1,6 @@
 <template>
     <div class="mt-0">
-        <NuxtLayout :name="layouts.header">
-
-        </NuxtLayout>
+        <NuxtLayout :name="layouts.header"></NuxtLayout>
         <div class="w-11/12 mx-auto">
             <Hero/>
             <Package/>
@@ -16,14 +14,11 @@
                         <Card :data="item"></Card>
                     </div>
                 </div>
-
             </section>
             <Explore/>
             <Order/>
         </div>
-        <NuxtLayout :name="layouts.footer">
-
-        </NuxtLayout>
+        <NuxtLayout :name="layouts.footer"></NuxtLayout>
     </div>
 </template>
 <script>

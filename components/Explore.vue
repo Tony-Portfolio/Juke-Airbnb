@@ -13,7 +13,7 @@
                         <p class="text-white/[0.8] text-base">Hotel dengan pemandangan indah dan terbuka</p>
                     </div>
                 </div>
-                <div class="relative group overflow-hidden">
+                <div class="relative group overflow-hidden h-full">
                     <img src="/images/category-2.jpg" alt=""
                         class="w-full h-full rounded group-hover:scale-[1] scale-[1.1] transition duration-500 ease-in-out">
                     <div class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/[0.8] to-black/[0] p-4 rounded">
